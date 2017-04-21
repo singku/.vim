@@ -1,0 +1,18 @@
+source ~/.vim/comm.vim
+syn on
+set number
+set hlsearch
+set smarttab
+set tabstop=4
+set shiftwidth=4
+set expandtab
+set statusline+=%f
+nmap ,b :bn <CR>
+:colorschem evening
+
+set paste
+augroup filetype
+au! BufRead,BufNewFile *.proto setfiletype proto
+augroup end
+
+set backspace=indent,eol,start

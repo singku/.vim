@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/home/ec2-user/twitter_nyc_private'
+let g:netrw_dirhist_2='/home/ec2-user/test'
+let g:netrw_dirhist_3='/home/tangandr/aws-sdk-cpp/aws-cpp-sdk-s3/include/aws/s3/model'

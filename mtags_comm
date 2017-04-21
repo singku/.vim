@@ -1,0 +1,11 @@
+#!/bin/bash
+ctags -R --c++-kinds=+p --fields=+iaS --extra=+q /usr/include/*.h \
+	 /usr/include/bits/\
+	 /usr/include/netinet/\
+	 /usr/include/arpa/\
+	 /usr/include/sys/\
+	 /usr/local/include/async_serv/\
+	 /usr/include/libtaomee/\
+	 /usr/include/libtaomee++/\
+	 /usr/include/dbser/\
+	 /usr/include/mysql/\
